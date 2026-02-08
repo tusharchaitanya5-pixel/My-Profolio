@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaitanya Tushar | Portfolio</title>
+
+  <!-- Internal CSS -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f7f8fa;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #00bcd4;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(to right, #0077b6, #00b4d8);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+
+    .hero span {
+      color: #ffd700;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #ffd700;
+      color: #111;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+    }
+
+    /* About Section */
+    .about {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    /* Projects Section */
+    .projects {
+      background: #eef3f7;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Contact */
+    .contact {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .contact a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <h1 class="logo">Chaitanya Tushar</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Internship</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Chaitanya Tushar</span></h2>
+      <p>A passionate <strong>Product & Operation Intern at BFSI Skill Council of India And FY Finance Student at Tata Institute of Social Science (TISS) Mumbai</strong>.</p>
+      <a href="#projects" class="btn">View My Career Highlights</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Finance and operations enthusiast with hands-on experience in insurance and financial services. Skilled in data management, client coordination, and process optimization. Strong leadership and teamwork abilities developed at TISS, with proven experience in supporting data-driven decisions and delivering results. Currently pursuing a Bachelor's in BFSI at TISS, with ongoing internship at BFSI SSC and completed internships at Star Health Insurance and HDFC Bank, building expertise in data analysis, relationship management, and financial research.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">	
+    <h2>My Internships</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>BFSI Sector Skill Council of India</h3>
+        <p>I previously worked as an HR Intern at the BFSI Sector Skill Council of India, gaining hands-on experience in HR operations, data handling, documentation, and team coordination. After completing an internship at HDFC LIFE, I rejoined BFSI SSC and am now working as a Product & Project Intern, where I contribute to product development, research activities, workflow enhancement, and operational support. These combined experiences have strengthened my analytical thinking, communication abilities, and process-management skills, giving me a well-rounded understanding of both HR and product functions within the BFSI ecosystem.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>HDFC LIFE</h3>
+        <p>As a Business Development Intern at HDFC Life, I managed finance-driven lead generation, client engagement, and policy promotion, contributing to stronger product outreach and a healthier sales pipeline. I gained hands-on experience in financial sales processes and customer relationship management, supporting efficient client acquisition and retention in the life insurance sector. Through this role, I developed strong expertise in life insurance products along with improved communication and financial advisory skills to guide clients in making informed investment decisions.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Star Health Insurance</h3>
+        <p>I managed client accounts by maintaining regular communication, resolving concerns, and ensuring smooth policy servicing. I also explained health insurance policies in detail to customers, helping them understand coverage, benefits, and financial implications. Through this experience, I developed strong expertise in relationship management, client handling, and financial product sales. It also gave me a deep understanding of various health insurance products, enabling me to guide customers effectively, support informed decision-making, and contribute to improved customer satisfaction and retention.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:tusharchaitanya5@gmail.com">tusharchaitanya5@gmail.com</a></p>
+    <p>📞 Phone no.: 9113137589</a></p>
+    <p>💼 LinkedIn: <a href="https://linkedin.com/in/chaitanya-tushar-52a18726b/" target="_blank">Connect me On LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Chaitanya Tushar | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
